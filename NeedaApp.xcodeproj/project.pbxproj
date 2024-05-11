@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0A05352BE2283500967FBC /* HCPOtp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0A05342BE2283500967FBC /* HCPOtp.swift */; };
+		4D1B853A2BAAEE5E00959E1E /* NeedaWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B85392BAAEE5E00959E1E /* NeedaWatchApp.swift */; };
+		4D1B853C2BAAEE5F00959E1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B853B2BAAEE5F00959E1E /* ContentView.swift */; };
+		4D1B853E2BAAEE6000959E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B853D2BAAEE6000959E1E /* Assets.xcassets */; };
+		4D1B85412BAAEE6000959E1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B85402BAAEE6000959E1E /* Preview Assets.xcassets */; };
+		4D1B85472BAAEE6100959E1E /* NeedaWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4D1B85462BAAEE6000959E1E /* NeedaWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D1B854C2BAAEE6100959E1E /* NeedaWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B854B2BAAEE6100959E1E /* NeedaWatchApp.swift */; };
+		4D1B854E2BAAEE6100959E1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B854D2BAAEE6100959E1E /* ContentView.swift */; };
+		4D1B85502BAAEE6100959E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B854F2BAAEE6100959E1E /* Assets.xcassets */; };
+		4D1B85532BAAEE6100959E1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B85522BAAEE6100959E1E /* Preview Assets.xcassets */; };
+		4D1B85562BAAEE6100959E1E /* NeedaWatch.app in Resources */ = {isa = PBXBuildFile; fileRef = 4D1B85372BAAEE5E00959E1E /* NeedaWatch.app */; };
+		4D1B855F2BAAF04100959E1E /* NeedaWatchConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B855E2BAAF04100959E1E /* NeedaWatchConnection.swift */; };
+		4D1B85612BAAF06C00959E1E /* WatchConnectioniOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1B85602BAAF06C00959E1E /* WatchConnectioniOS.swift */; };
+		4D1B85642BAAFCA500959E1E /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1B85632BAAFCA500959E1E /* WatchConnectivity.framework */; };
+		4D40C78F2B9FAB7F004CB3D7 /* buttonview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40C78E2B9FAB7F004CB3D7 /* buttonview.swift */; };
+		4D40C7912BA18934004CB3D7 /* completeyourhealthstructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D40C7902BA18934004CB3D7 /* completeyourhealthstructs.swift */; };
+		4D5A18242B98FD4200F27C6C /* newViewHealthInfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A18232B98FD4200F27C6C /* newViewHealthInfoPage.swift */; };
+		4D6483892B910F6C00B9FCE7 /* completeYourHealthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6483882B910F6C00B9FCE7 /* completeYourHealthPage.swift */; };
+		4D64838D2B935F7B00B9FCE7 /* NeedaHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64838C2B935F7B00B9FCE7 /* NeedaHomePage.swift */; };
+		4DE0F9E72BA4F2D800AD774A /* HealthDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE0F9E62BA4F2D800AD774A /* HealthDataManager.swift */; };
+		4DEA865E2BCB60DB00015D24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEA865D2BCB60DB00015D24 /* AppDelegate.swift */; };
+		7E4E1A642BD07CCE00101071 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7E4E1A632BD07CCE00101071 /* FirebaseAnalytics */; };
+		7E4E1A662BD0827500101071 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 7E4E1A652BD0827500101071 /* FirebaseMessaging */; };
+		7E4E1A6D2BD4460500101071 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7E4E1A682BD4460500101071 /* .gitignore */; };
+		7E4E1A6E2BD4460500101071 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 7E4E1A692BD4460500101071 /* index.js */; };
+		7E4E1A6F2BD4460500101071 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E4E1A6A2BD4460500101071 /* package.json */; };
+		7E4E1A712BDA527100101071 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 7E4E1A702BDA527100101071 /* FirebaseFunctions */; };
+		7E5BE4B72BED03DC00052181 /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5BE4B62BED03DC00052181 /* MapsView.swift */; };
+		7E5BE4C12BEF553800052181 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E5BE4C02BEF553800052181 /* GoogleService-Info.plist */; };
+		7E5BE4C32BEF555000052181 /* medicalHistory 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5BE4C22BEF555000052181 /* medicalHistory 3.swift */; };
+		7E5BE4C52BEF556500052181 /* location manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5BE4C42BEF556500052181 /* location manager.swift */; };
+		7E8742772BE56189001A5A5F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7E8742762BE56189001A5A5F /* FirebaseAuth */; };
+		7EC88DC12BEC016D00A463E3 /* navigationmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC88DC02BEC016D00A463E3 /* navigationmanager.swift */; };
+		C1014D802B91ED63002307CE /* PractitionerRegestrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FF8B502B906321002468C1 /* PractitionerRegestrationPage.swift */; };
+		C1FF8B2B2B8DFD7A002468C1 /* NeedaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FF8B2A2B8DFD7A002468C1 /* NeedaAppApp.swift */; };
+		C1FF8B2D2B8DFD7A002468C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FF8B2C2B8DFD7A002468C1 /* ContentView.swift */; };
+		C1FF8B2F2B8DFD7B002468C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FF8B2E2B8DFD7B002468C1 /* Assets.xcassets */; };
+		C1FF8B322B8DFD7B002468C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1FF8B312B8DFD7B002468C1 /* Preview Assets.xcassets */; };
+		C1FF8B4F2B905F8D002468C1 /* patientRegestrationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FF8B4E2B905F8D002468C1 /* patientRegestrationPage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D1B85482BAAEE6100959E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FF8B1F2B8DFD7A002468C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1B85452BAAEE6000959E1E;
+			remoteInfo = "NeedaWatch Watch App";
+		};
+		4D1B85542BAAEE6100959E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1FF8B1F2B8DFD7A002468C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1B85362BAAEE5E00959E1E;
+			remoteInfo = NeedaWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D1B855A2BAAEE6100959E1E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4D1B85472BAAEE6100959E1E /* NeedaWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FF8B4D2B8DFF0F002468C1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D0A05342BE2283500967FBC /* HCPOtp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCPOtp.swift; sourceTree = "<group>"; };
+		4D1B85372BAAEE5E00959E1E /* NeedaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeedaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1B85392BAAEE5E00959E1E /* NeedaWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedaWatchApp.swift; sourceTree = "<group>"; };
+		4D1B853B2BAAEE5F00959E1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D1B853D2BAAEE6000959E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D1B85402BAAEE6000959E1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D1B85462BAAEE6000959E1E /* NeedaWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NeedaWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1B854B2BAAEE6100959E1E /* NeedaWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedaWatchApp.swift; sourceTree = "<group>"; };
+		4D1B854D2BAAEE6100959E1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D1B854F2BAAEE6100959E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D1B85522BAAEE6100959E1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D1B855E2BAAF04100959E1E /* NeedaWatchConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedaWatchConnection.swift; sourceTree = "<group>"; };
+		4D1B85602BAAF06C00959E1E /* WatchConnectioniOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectioniOS.swift; sourceTree = "<group>"; };
+		4D1B85632BAAFCA500959E1E /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		4D40C78E2B9FAB7F004CB3D7 /* buttonview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonview.swift; sourceTree = "<group>"; };
+		4D40C7902BA18934004CB3D7 /* completeyourhealthstructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = completeyourhealthstructs.swift; sourceTree = "<group>"; };
+		4D4ABA2B2BD4318C00401D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4D5A18232B98FD4200F27C6C /* newViewHealthInfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newViewHealthInfoPage.swift; sourceTree = "<group>"; };
+		4D6483882B910F6C00B9FCE7 /* completeYourHealthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = completeYourHealthPage.swift; sourceTree = "<group>"; };
+		4D64838C2B935F7B00B9FCE7 /* NeedaHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedaHomePage.swift; sourceTree = "<group>"; };
+		4D86BD5A2B9A5DFE009370A7 /* NeedaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeedaApp.entitlements; sourceTree = "<group>"; };
+		4DE0F9E62BA4F2D800AD774A /* HealthDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataManager.swift; sourceTree = "<group>"; };
+		4DEA865D2BCB60DB00015D24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E4E1A682BD4460500101071 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		7E4E1A692BD4460500101071 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		7E4E1A6A2BD4460500101071 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		7E5BE4B62BED03DC00052181 /* MapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsView.swift; sourceTree = "<group>"; };
+		7E5BE4C02BEF553800052181 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Library/Containers/net.whatsapp.WhatsApp/Data/tmp/documents/AEE3B5CA-9296-46E7-AF16-240D3A2864FC/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E5BE4C22BEF555000052181 /* medicalHistory 3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "medicalHistory 3.swift"; path = "../../../Library/Containers/net.whatsapp.WhatsApp/Data/tmp/documents/47324C4B-5924-42C0-90EB-9DEAFF27DDF4/medicalHistory 3.swift"; sourceTree = "<group>"; };
+		7E5BE4C42BEF556500052181 /* location manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "location manager.swift"; path = "../../../Library/Containers/net.whatsapp.WhatsApp/Data/tmp/documents/4959919D-F929-472C-A307-1D02DDEFA4EE/location manager.swift"; sourceTree = "<group>"; };
+		7EC88DC02BEC016D00A463E3 /* navigationmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationmanager.swift; sourceTree = "<group>"; };
+		C1FF8B272B8DFD7A002468C1 /* NeedaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeedaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FF8B2A2B8DFD7A002468C1 /* NeedaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedaAppApp.swift; sourceTree = "<group>"; };
+		C1FF8B2C2B8DFD7A002468C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1FF8B2E2B8DFD7B002468C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1FF8B312B8DFD7B002468C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1FF8B4E2B905F8D002468C1 /* patientRegestrationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patientRegestrationPage.swift; sourceTree = "<group>"; };
+		C1FF8B502B906321002468C1 /* PractitionerRegestrationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PractitionerRegestrationPage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D1B85342BAAEE5E00959E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1B85432BAAEE6000959E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1B85642BAAFCA500959E1E /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FF8B242B8DFD7A002468C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4E1A712BDA527100101071 /* FirebaseFunctions in Frameworks */,
+				7E4E1A662BD0827500101071 /* FirebaseMessaging in Frameworks */,
+				7E4E1A642BD07CCE00101071 /* FirebaseAnalytics in Frameworks */,
+				7E8742772BE56189001A5A5F /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D1B85382BAAEE5E00959E1E /* NeedaWatch */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B85392BAAEE5E00959E1E /* NeedaWatchApp.swift */,
+				4D1B853B2BAAEE5F00959E1E /* ContentView.swift */,
+				4D1B853D2BAAEE6000959E1E /* Assets.xcassets */,
+				4D1B853F2BAAEE6000959E1E /* Preview Content */,
+			);
+			path = NeedaWatch;
+			sourceTree = "<group>";
+		};
+		4D1B853F2BAAEE6000959E1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B85402BAAEE6000959E1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D1B854A2BAAEE6100959E1E /* NeedaWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B854B2BAAEE6100959E1E /* NeedaWatchApp.swift */,
+				4D1B854D2BAAEE6100959E1E /* ContentView.swift */,
+				4D1B855E2BAAF04100959E1E /* NeedaWatchConnection.swift */,
+				4D1B854F2BAAEE6100959E1E /* Assets.xcassets */,
+				4D1B85512BAAEE6100959E1E /* Preview Content */,
+			);
+			path = "NeedaWatch Watch App";
+			sourceTree = "<group>";
+		};
+		4D1B85512BAAEE6100959E1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B85522BAAEE6100959E1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D1B85622BAAFCA400959E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D1B85632BAAFCA500959E1E /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E4E1A6B2BD4460500101071 /* functions */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E1A682BD4460500101071 /* .gitignore */,
+				7E4E1A692BD4460500101071 /* index.js */,
+				7E4E1A6A2BD4460500101071 /* package.json */,
+			);
+			path = functions;
+			sourceTree = SOURCE_ROOT;
+		};
+		C1FF8B1E2B8DFD7A002468C1 = {
+			isa = PBXGroup;
+			children = (
+				C1FF8B292B8DFD7A002468C1 /* NeedaApp */,
+				4D1B85382BAAEE5E00959E1E /* NeedaWatch */,
+				4D1B854A2BAAEE6100959E1E /* NeedaWatch Watch App */,
+				C1FF8B282B8DFD7A002468C1 /* Products */,
+				4D1B85622BAAFCA400959E1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1FF8B282B8DFD7A002468C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1FF8B272B8DFD7A002468C1 /* NeedaApp.app */,
+				4D1B85372BAAEE5E00959E1E /* NeedaWatch.app */,
+				4D1B85462BAAEE6000959E1E /* NeedaWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1FF8B292B8DFD7A002468C1 /* NeedaApp */ = {
+			isa = PBXGroup;
+			children = (
+				7E4E1A6B2BD4460500101071 /* functions */,
+				4D4ABA2B2BD4318C00401D5A /* Info.plist */,
+				7E5BE4C02BEF553800052181 /* GoogleService-Info.plist */,
+				4D86BD5A2B9A5DFE009370A7 /* NeedaApp.entitlements */,
+				C1FF8B2C2B8DFD7A002468C1 /* ContentView.swift */,
+				C1FF8B4E2B905F8D002468C1 /* patientRegestrationPage.swift */,
+				C1FF8B502B906321002468C1 /* PractitionerRegestrationPage.swift */,
+				4D0A05342BE2283500967FBC /* HCPOtp.swift */,
+				4D6483882B910F6C00B9FCE7 /* completeYourHealthPage.swift */,
+				7E5BE4C22BEF555000052181 /* medicalHistory 3.swift */,
+				4D5A18232B98FD4200F27C6C /* newViewHealthInfoPage.swift */,
+				7E5BE4C42BEF556500052181 /* location manager.swift */,
+				4D64838C2B935F7B00B9FCE7 /* NeedaHomePage.swift */,
+				7E5BE4B62BED03DC00052181 /* MapsView.swift */,
+				C1FF8B2A2B8DFD7A002468C1 /* NeedaAppApp.swift */,
+				4DEA865D2BCB60DB00015D24 /* AppDelegate.swift */,
+				4D40C78E2B9FAB7F004CB3D7 /* buttonview.swift */,
+				4DE0F9E62BA4F2D800AD774A /* HealthDataManager.swift */,
+				7EC88DC02BEC016D00A463E3 /* navigationmanager.swift */,
+				4D40C7902BA18934004CB3D7 /* completeyourhealthstructs.swift */,
+				4D1B85602BAAF06C00959E1E /* WatchConnectioniOS.swift */,
+				C1FF8B2E2B8DFD7B002468C1 /* Assets.xcassets */,
+				C1FF8B302B8DFD7B002468C1 /* Preview Content */,
+			);
+			path = NeedaApp;
+			sourceTree = "<group>";
+		};
+		C1FF8B302B8DFD7B002468C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1FF8B312B8DFD7B002468C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D1B85362BAAEE5E00959E1E /* NeedaWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1B855B2BAAEE6100959E1E /* Build configuration list for PBXNativeTarget "NeedaWatch" */;
+			buildPhases = (
+				4D1B85332BAAEE5E00959E1E /* Sources */,
+				4D1B85342BAAEE5E00959E1E /* Frameworks */,
+				4D1B85352BAAEE5E00959E1E /* Resources */,
+				4D1B855A2BAAEE6100959E1E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1B85492BAAEE6100959E1E /* PBXTargetDependency */,
+			);
+			name = NeedaWatch;
+			productName = NeedaWatch;
+			productReference = 4D1B85372BAAEE5E00959E1E /* NeedaWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D1B85452BAAEE6000959E1E /* NeedaWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1B85572BAAEE6100959E1E /* Build configuration list for PBXNativeTarget "NeedaWatch Watch App" */;
+			buildPhases = (
+				4D1B85422BAAEE6000959E1E /* Sources */,
+				4D1B85432BAAEE6000959E1E /* Frameworks */,
+				4D1B85442BAAEE6000959E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NeedaWatch Watch App";
+			productName = "NeedaWatch Watch App";
+			productReference = 4D1B85462BAAEE6000959E1E /* NeedaWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1FF8B262B8DFD7A002468C1 /* NeedaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1FF8B352B8DFD7B002468C1 /* Build configuration list for PBXNativeTarget "NeedaApp" */;
+			buildPhases = (
+				C1FF8B232B8DFD7A002468C1 /* Sources */,
+				C1FF8B242B8DFD7A002468C1 /* Frameworks */,
+				C1FF8B252B8DFD7A002468C1 /* Resources */,
+				C1FF8B4D2B8DFF0F002468C1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1B85552BAAEE6100959E1E /* PBXTargetDependency */,
+			);
+			name = NeedaApp;
+			packageProductDependencies = (
+				7E4E1A632BD07CCE00101071 /* FirebaseAnalytics */,
+				7E4E1A652BD0827500101071 /* FirebaseMessaging */,
+				7E4E1A702BDA527100101071 /* FirebaseFunctions */,
+				7E8742762BE56189001A5A5F /* FirebaseAuth */,
+			);
+			productName = NeedaApp;
+			productReference = C1FF8B272B8DFD7A002468C1 /* NeedaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1FF8B1F2B8DFD7A002468C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4D1B85362BAAEE5E00959E1E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					4D1B85452BAAEE6000959E1E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C1FF8B262B8DFD7A002468C1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C1FF8B222B8DFD7A002468C1 /* Build configuration list for PBXProject "NeedaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1FF8B1E2B8DFD7A002468C1;
+			packageReferences = (
+				7E4E1A602BD0733600101071 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C1FF8B282B8DFD7A002468C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1FF8B262B8DFD7A002468C1 /* NeedaApp */,
+				4D1B85362BAAEE5E00959E1E /* NeedaWatch */,
+				4D1B85452BAAEE6000959E1E /* NeedaWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D1B85352BAAEE5E00959E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1B85412BAAEE6000959E1E /* Preview Assets.xcassets in Resources */,
+				4D1B853E2BAAEE6000959E1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1B85442BAAEE6000959E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1B85532BAAEE6100959E1E /* Preview Assets.xcassets in Resources */,
+				4D1B85502BAAEE6100959E1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FF8B252B8DFD7A002468C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4E1A6F2BD4460500101071 /* package.json in Resources */,
+				7E5BE4C12BEF553800052181 /* GoogleService-Info.plist in Resources */,
+				C1FF8B322B8DFD7B002468C1 /* Preview Assets.xcassets in Resources */,
+				4D1B85562BAAEE6100959E1E /* NeedaWatch.app in Resources */,
+				7E4E1A6E2BD4460500101071 /* index.js in Resources */,
+				7E4E1A6D2BD4460500101071 /* .gitignore in Resources */,
+				C1FF8B2F2B8DFD7B002468C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D1B85332BAAEE5E00959E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1B853C2BAAEE5F00959E1E /* ContentView.swift in Sources */,
+				4D1B853A2BAAEE5E00959E1E /* NeedaWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1B85422BAAEE6000959E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1B854E2BAAEE6100959E1E /* ContentView.swift in Sources */,
+				4D1B855F2BAAF04100959E1E /* NeedaWatchConnection.swift in Sources */,
+				4D1B854C2BAAEE6100959E1E /* NeedaWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1FF8B232B8DFD7A002468C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6483892B910F6C00B9FCE7 /* completeYourHealthPage.swift in Sources */,
+				4D64838D2B935F7B00B9FCE7 /* NeedaHomePage.swift in Sources */,
+				7E5BE4B72BED03DC00052181 /* MapsView.swift in Sources */,
+				4DE0F9E72BA4F2D800AD774A /* HealthDataManager.swift in Sources */,
+				C1014D802B91ED63002307CE /* PractitionerRegestrationPage.swift in Sources */,
+				7EC88DC12BEC016D00A463E3 /* navigationmanager.swift in Sources */,
+				7E5BE4C52BEF556500052181 /* location manager.swift in Sources */,
+				7E5BE4C32BEF555000052181 /* medicalHistory 3.swift in Sources */,
+				4D40C7912BA18934004CB3D7 /* completeyourhealthstructs.swift in Sources */,
+				4D1B85612BAAF06C00959E1E /* WatchConnectioniOS.swift in Sources */,
+				4DEA865E2BCB60DB00015D24 /* AppDelegate.swift in Sources */,
+				C1FF8B2D2B8DFD7A002468C1 /* ContentView.swift in Sources */,
+				4D5A18242B98FD4200F27C6C /* newViewHealthInfoPage.swift in Sources */,
+				4D0A05352BE2283500967FBC /* HCPOtp.swift in Sources */,
+				4D40C78F2B9FAB7F004CB3D7 /* buttonview.swift in Sources */,
+				C1FF8B4F2B905F8D002468C1 /* patientRegestrationPage.swift in Sources */,
+				C1FF8B2B2B8DFD7A002468C1 /* NeedaAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D1B85492BAAEE6100959E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1B85452BAAEE6000959E1E /* NeedaWatch Watch App */;
+			targetProxy = 4D1B85482BAAEE6100959E1E /* PBXContainerItemProxy */;
+		};
+		4D1B85552BAAEE6100959E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1B85362BAAEE5E00959E1E /* NeedaWatch */;
+			targetProxy = 4D1B85542BAAEE6100959E1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D1B85582BAAEE6100959E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeedaWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6P394PRY82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NeedaWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = myhealth.com.NeedaWatch;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myhealth.com.NeedaWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
+			};
+			name = Debug;
+		};
+		4D1B85592BAAEE6100959E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeedaWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6P394PRY82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NeedaWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = myhealth.com.NeedaWatch;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myhealth.com.NeedaWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.4;
+			};
+			name = Release;
+		};
+		4D1B855C2BAAEE6100959E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeedaWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 6P394PRY82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NeedaWatch;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myhealth.com.NeedaWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D1B855D2BAAEE6100959E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeedaWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = 6P394PRY82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NeedaWatch;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myhealth.com.NeedaWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1FF8B332B8DFD7B002468C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1FF8B342B8DFD7B002468C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1FF8B362B8DFD7B002468C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NeedaApp/NeedaApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeedaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6P394PRY82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeedaApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "\"استخدام تطبيق نداء يتطلب الحاجة للوصول إلى بيانات HealthKit الخاصة بك لمراقبة علاماتك الحيوية بشكل مستمر وتوفير مراقبة صحية في الوقت الفعلي. تم تصميم هذه الميزة لضمان سلامتك وتسهيل العناية الطبية الفورية عند الضرورة. يتم تشفير بياناتك الصحية وتخزينها بشكل آمن، ولا يمكن الوصول إليها إلا لهذه الأغراض، ولن تتم مشاركتها دون موافقتك الصريحة.\"";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need access to your location always to provide navigation instructions even when the app is in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "نحتاج الوكيشن الخاص بك";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = twq.NeedaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1FF8B372B8DFD7B002468C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NeedaApp/NeedaApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeedaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6P394PRY82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NeedaApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "\"استخدام تطبيق نداء يتطلب الحاجة للوصول إلى بيانات HealthKit الخاصة بك لمراقبة علاماتك الحيوية بشكل مستمر وتوفير مراقبة صحية في الوقت الفعلي. تم تصميم هذه الميزة لضمان سلامتك وتسهيل العناية الطبية الفورية عند الضرورة. يتم تشفير بياناتك الصحية وتخزينها بشكل آمن، ولا يمكن الوصول إليها إلا لهذه الأغراض، ولن تتم مشاركتها دون موافقتك الصريحة.\"";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need access to your location always to provide navigation instructions even when the app is in the background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "نحتاج الوكيشن الخاص بك";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = twq.NeedaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D1B85572BAAEE6100959E1E /* Build configuration list for PBXNativeTarget "NeedaWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1B85582BAAEE6100959E1E /* Debug */,
+				4D1B85592BAAEE6100959E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1B855B2BAAEE6100959E1E /* Build configuration list for PBXNativeTarget "NeedaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1B855C2BAAEE6100959E1E /* Debug */,
+				4D1B855D2BAAEE6100959E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1FF8B222B8DFD7A002468C1 /* Build configuration list for PBXProject "NeedaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FF8B332B8DFD7B002468C1 /* Debug */,
+				C1FF8B342B8DFD7B002468C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1FF8B352B8DFD7B002468C1 /* Build configuration list for PBXNativeTarget "NeedaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FF8B362B8DFD7B002468C1 /* Debug */,
+				C1FF8B372B8DFD7B002468C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E4E1A602BD0733600101071 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E4E1A632BD07CCE00101071 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E4E1A602BD0733600101071 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7E4E1A652BD0827500101071 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E4E1A602BD0733600101071 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		7E4E1A702BDA527100101071 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E4E1A602BD0733600101071 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		7E8742762BE56189001A5A5F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E4E1A602BD0733600101071 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C1FF8B1F2B8DFD7A002468C1 /* Project object */;
+}
